@@ -12,8 +12,7 @@
 		private var myso:SharedObject
 		public function NewThumbsContainer() 
 		{
-			myso = SharedObject.getLocal("myurls6")
-			urls = myso.data.urls
+			urls = ["test.jpg","test.jpg","test.jpg""test.jpg""test.jpg""test.jpg""test.jpg""test.jpg""test.jpg"]
 			init()
 		}
 		
